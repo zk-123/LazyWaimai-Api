@@ -1,64 +1,31 @@
-LazyWaimai-Api 
-==========
-此项目是懒人外卖（本人用来练手的项目,类似于百度外卖,美团外卖和饿了么的系统）的API端，为[Android客户端](https://github.com/cheikh-wang/LazyWaimai-Android)提供API服务，基于 [Yii2](https://github.com/yiisoft/yii2) 框架实现的。
+## LazyWaimai-Api 
 
-环境条件
--------
-+ PHP版本必须大于或等于php5.4
+该项目的代码是fork原地址的
 
-安装
--------
-#### 1.clone到本地
-```
-git clone git@github.com:cheikh-wang/LazyWaimai-Api.git
-```
-#### 2.配置数据库
-1. 将sql文件导入到数据库中
 
-2. 配置数据库：
+在征求作者同意的情况下，对其代码进行修改，并完成了毕设。
 
-```
-cd LazyWaimai-Api
-vi config/web.php
-```
-#### 3.安装依赖
-```
-composer install
-```
-#### 4.给予权限
-```
-chmod 777 runtime
-chmod 777 web/assets
-chmod 755 yii
-```
-#### 5.配置服务器
-```
-配置nginx/apache的webroot指向LazyWaimai-Api/web
-```
-其他配置
--------
-#### 1.短信服务的配置
-###### 本项目的短信服务是使用的[云之讯](http://www.ucpaas.com)，请自行注册账户并按如下方式配置：
+这里是作品另一个[地址](https://gitee.com/zkdcloud.cn/loms-android)
 
-编辑config/web.php
+## 以下是上述网址的简介
 
-```
-'ucpass' => [
-	'class' => 'app\components\Ucpaas',
-    'accountSid' => '修改为你的云之讯Account Sid',
-    'token' => '修改为你的云之讯Auth Token',
-    'appId' => '修改为你的云之讯应用ID',
-    'templateId' => '修改为你的云之讯短信模板ID',
-],
-```
-#### 2.七牛云的配置
-###### 本项目的图片上传服务是使用的[七牛](http://www.qiniu.com)，请自行注册账户并按如下方式配置：
-```
-'qiniu' => [
-	'class' => 'app\components\QiNiu',
-	'accessKey' => '修改为你的AccessKey',
-	'secretKey' => '修改为你的SecretKey',
-	'bucket' => '修改为你的空间名',
-	'domain' => '修改为你的域名',
-],
-```
+
+﻿
+## Fork
+
+本项目在 [Keven Wang](https://github.com/cheikh-wang) 的[layWaiMai](https://github.com/cheikh-wang/LazyWaimai-Android)基础上进行接口的改造和实现。
+
+由于笔者不会Android知识，非常感谢Keven Wang大哥提供的Android项目，并且征求大哥同意的基础下做成了自己[基于Android的网上订餐系统](https://gitee.com/zkdcloud.cn/loms)，再次表示感谢。
+
+## Link
+Android端具体还是看大哥的简介吧，我也不懂。
+
+## 系统其他链接
++ [后台`code`](https://gitee.com/zkdcloud.cn/loms)
++ [前台`code`](https://gitee.com/zkdcloud.cn/lops)
+
+## 实现展示
+ 
+<div align=center>
+<img src="https://gitee.com/zkdcloud.cn/screenshots/raw/master/zlc.gif" width = "368" height = "640" alt="图片名称" align=center style="display:line-block" /> <img src="https://gitee.com/zkdcloud.cn/screenshots/raw/master/sz.gif" width = "368" height = "640" alt="图片名称" align=center />
+</div>
