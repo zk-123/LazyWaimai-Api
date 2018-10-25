@@ -26,6 +26,8 @@ Android端具体还是看大哥的简介吧，我也不懂。
 
 ## 实现展示
  
-<div align=center>
-<img src="https://gitee.com/zkdcloud.cn/screenshots/raw/master/zlc.gif" width = "368" height = "640" alt="图片名称" align=center style="display:line-block" /> <img src="https://gitee.com/zkdcloud.cn/screenshots/raw/master/sz.gif" width = "368" height = "640" alt="图片名称" align=center />
+
+ 
+<div align="center" style="padding-left: 64px;">
+<img src="https://github.com/zk-123/LazyWaimai-Api/blob/master/sz.gif" width = "368" height = "640" alt="图片名称" align=center style="display:line-block" /> <img src="https://github.com/zk-123/LazyWaimai-Api/blob/master/zlc.gif" width = "368" height = "640" alt="图片名称" align=center />
 </div>
